@@ -18,7 +18,6 @@ public class App {
 
         while (parser.hasNext()) {
             String token = parser.nextToken();
-            System.out.println("token='"+token+"'");
 
             switch (token) {
 
