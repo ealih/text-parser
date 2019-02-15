@@ -1,0 +1,25 @@
+Write a console program that parses text according to special characters and writes all combinations possible combinations according to rules:
+- text starts with "{" and ends with "}",
+- each sentence within text ends with ".",
+- options start with "{" and end with "}",
+- choices within options are delimited by "|".
+
+Example 1:
+Input text: 
+{This is my {homework|assignment}.}
+
+Program should produce:
+This is my homework.
+This is my assignment.
+
+Example 2:
+Input text:
+{ Today is { Monday { and it's working } | Friday { and it's { relaxing | easy} } day }. Tonight is { baseball | football } game. }
+
+Program should produce:
+Today is Monday and it's working day. Tonight is baseball game.
+Today is Monday and it's working day. Tonight is football game.
+Today is Friday and it's relaxing day. Tonight is baseball game.
+Today is Friday and it's relaxing day. Tonight is football game.
+Today is Friday and it's easy day. Tonight is baseball game.
+Today is Friday and it's easy day. Tonight is football game.
