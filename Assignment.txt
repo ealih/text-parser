@@ -1,4 +1,4 @@
-Write a console program that parses text according to special characters and writes all combinations possible combinations according to rules:
+Write a console program that parses text according to special characters and writes all possible combinations according to rules:
 - text starts with "{" and ends with "}",
 - each sentence within text ends with ".",
 - options start with "{" and end with "}",
